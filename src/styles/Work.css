@@ -1,0 +1,47 @@
+.home-container {
+    background-color: aquamarine;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.grid-item {
+    background-color: wheat;
+    border: 1px solid red;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    display: flex;
+}
+
+.project-text {
+
+}
+
+.project-title {
+
+}
+
+.project-summary {
+
+}
+
+.project-image-container {
+
+}
+
+.project-image {
+    max-height: 14em;
+}
+
+@media only screen and (max-width: 600px) {
+    .project {
+        flex-direction: column;
+    }
+  }
