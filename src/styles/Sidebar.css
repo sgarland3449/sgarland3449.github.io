@@ -1,26 +1,86 @@
 .sidebar {
     display: flex;
     flex-direction: column;
+    min-width: 250px;
+    position: relative;
+}
+
+.stuck {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    z-index: 1;
 }
 .name-container {
-
+    margin-bottom: 80vh;
+    justify-content: center;
+    text-align: center;
 }
 
 .name {
-
+    font-size: 1.5rem;
 }
 
 .link-container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1em;
 }
 
-@media only screen and (max-width: 600px) {
-    .sidebar {
+.link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgba(197, 196, 196, 0.589);
+}
+
+.active {
+    color: black;
+}
+
+.email {
+    z-index: 1;
+    height: 0.75em;
+    width: 1em;
+}
+
+.email:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .stuck {
+        display: flex;
         flex-direction: row;
+        position: absolute;
+        background-color: white;
+        height: 3em;
+        width: 100%;
+        justify-content: center;
+        border-bottom: 1px solid rgba(194, 193, 193, 0.555);
+        left: 0;
+        top: 0;
+        padding-top: 1em;
     }
 
     .link-container {
+        margin: 0 1em 1em auto;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link {
+        margin: 1em 0 1em 1em;
+        font-size: 0.8rem;
+    }
+
+    .email {
+        display: none;
+    }
+
+    .name-container {
+        margin: 0 auto;
+        padding-bottom: 1em;
     }
   }

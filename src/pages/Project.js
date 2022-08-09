@@ -1,10 +1,10 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom';
+import '../styles/Project.css'
 
 const Project = () => {
   return (
     <div className='project-container'>
-     Project
      <Outlet /> 
     </div>
   )
