@@ -5,6 +5,10 @@
     overflow: auto;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .header {
     margin: 1em 2em;
     padding-bottom: 1em;
@@ -35,6 +39,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1.2rem;
+    color: black;
 }
 
 .project-image {

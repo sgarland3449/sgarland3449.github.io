@@ -1,9 +1,5 @@
 import './styles/App.css';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Project from './pages/Project.js';

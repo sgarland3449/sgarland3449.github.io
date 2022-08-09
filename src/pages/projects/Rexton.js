@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Afterlife = () => {
+const Rexton = () => {
   return (
     <div>
-      <div className="">afterlife</div>
+      <div className="">rexton</div>
       <Link className='link' to={`/`}>
         <div className="project-title">Back</div>
       </Link>
@@ -12,4 +12,4 @@ const Afterlife = () => {
   )
 }
 
-export default Afterlife
+export default Rexton

@@ -22,7 +22,9 @@ function Work() {
       </div>
       <div className="grid-item project">
           <div className="project-text">
+          <Link className='link' to={`/project/afterlife`}>
             <div className="project-title">Afterlife</div>
+          </Link>
             <div className="project-summary">I did this project for a class.</div>
           </div>
           <div className="project-image-container">
@@ -38,7 +40,9 @@ function Work() {
       </div>
       <div className="grid-item project">
         <div className="project-text">
-          <div className="project-title">Blossom</div>
+          <Link className='link' to={`/project/blossom`}>
+            <div className="project-title">Blossom</div>
+          </Link>
           <div className="project-summary">I did this project for a class.</div>
         </div>
         <div className="project-image-container">
@@ -54,7 +58,9 @@ function Work() {
       </div>
       <div className="grid-item project">
           <div className="project-text">
+          <Link className='link' to={`/project/lunar`}>
             <div className="project-title">Lunar Inn Renovation</div>
+          </Link>
             <div className="project-summary">Ground floor interventions, reception area upgrades, and a gallery.</div>
           </div>
           <div className="project-image-container">
@@ -70,7 +76,9 @@ function Work() {
       </div>
       <div className="grid-item project">
           <div className="project-text">
+          <Link className='link' to={`/project/woodpavillion`}>
             <div className="project-title">Wooden Textile Pavillion</div>
+          </Link>
             <div className="project-summary">I did this project for a studio class.</div>
           </div>
           <div className="project-image-container">
@@ -86,7 +94,9 @@ function Work() {
       </div>
       <div className="grid-item project">
           <div className="project-text">
+          <Link className='link' to={`/project/rexton`}>
             <div className="project-title">Port Rexton House</div>
+          </Link>
             <div className="project-summary">Early concept renderings for two couples looking to build a summer home in Port Rexton, Newfoundland.</div>
           </div>
           <div className="project-image-container">
@@ -102,7 +112,9 @@ function Work() {
       </div>
       <div className="grid-item project">
           <div className="project-text">
-            <div className="project-title">Material Landscapes: Human Ecological Interactions</div>
+          <Link className='link' to={`/project/matlandscapes`}>
+            <div className="project-title">Material Landscapes</div>
+          </Link>
             <div className="project-summary">I did this project for a class.</div>
           </div>
           <div className="project-image-container">
@@ -118,12 +130,14 @@ function Work() {
       </div>
       <div className="grid-item project">
         <div className="project-text">
-          <div className="project-title">The Battery: Primitive Rug Hooking</div>
+        <Link className='link' to={`/project/battery`}>
+            <div className="project-title">The Battery: Primitive Rug Hooking</div>
+          </Link>
           <div className="project-summary">I did this project for a class.</div>
         </div>
         <div className="project-image-container">
         <Link to={`/project/battery`}>
-          <img className='project-image' src={Battery} alt="Picture of rug depicting The Battery, Newfoundland." />
+          <img className='project-image' src={Battery} alt="Rug depicting The Battery, Newfoundland." />
         </Link>
         </div>
       </div>
