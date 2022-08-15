@@ -1,18 +1,20 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/Sidebar.css'
-import { Link } from 'react-router-dom';
-import EmailIcon from '../assets/emailIcon.png';
+import { Link, useLocation } from 'react-router-dom';
+import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
+
 
 const Sidebar = () => {
-    const [activePage, setActivePage] = useState('a');
+    const [activePage, setActivePage] = useState('');
+    let location = useLocation();
 
-    const changePage = event => {
-        if(event.target.innerHTML === 'WORK') {
-            setActivePage(1);
+    useEffect(() => {
+        if(location.pathname === '/about'){
+            setActivePage(0)
         } else {
-            setActivePage(0);
+            setActivePage(1)
         }
-    }
+    }, [location]);
 
     const email = () => {
         window.location.href = "mailto:sgarland3449@hotmail.com";
@@ -25,11 +27,11 @@ const Sidebar = () => {
                 <div className="name">SARAH GARLAND</div>
             </div>
             <div className="link-container">
-                <Link onClick={changePage} className={activePage ? 'link active' : 'link'} to={"/"}  >WORK</Link>
-                <Link onClick={changePage} className={activePage ? 'link' : 'link active'} to={"/about"} >ABOUT</Link>
+                <Link className={activePage ? 'link active' : 'link'} to={"/"}  >WORK</Link>
+                <Link className={activePage ? 'link' : 'link active'} to={"/about"} >ABOUT</Link>
             </div>
-            <div>
-                <img  className='email' src={EmailIcon} alt="email icon" onClick={email}/>
+            <div className='email'>
+                <MailOutlinedIcon onClick={email} />
             </div>
         </div>
     </div>

@@ -1,10 +1,20 @@
 import React from 'react';
 import '../styles/About.css';
 import Headshot from '../assets/nina.jpg';
-import Email from '../assets/emailIcon.png';
-import Linkedin from '../assets/linkedinIcon.png';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 
 function About() {
+
+    const email = () => {
+        window.location.href = "mailto:sgarland3449@hotmail.com";
+    }
+
+    const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+      };
+
+
   return (
     <div className='about-container'>
         <div className="container-1">
@@ -18,18 +28,18 @@ function About() {
                 </span>
             </div>
             <hr />
-            <div className="link-container">
-                <div className="link">
-                    <div className="link-image">
-                        <img src={Email} alt="email icon" />
+            <div className="about-link-container">
+                <div className="about-link" onClick={email}>
+                    <div className="about-link-image">
+                        <EmailIcon />
                     </div>
-                    <div className="link-text">sgarland3449@hotmail.com</div>
+                    <div className="about-link-text">sgarland3449@hotmail.com</div>
                 </div>
-                <div className="link">
-                    <div className="link-image">
-                        <img src={Linkedin} alt="linkedin icon" />
+                <div className="about-link" onClick={() => openInNewTab('https://www.linkedin.com/in/sarah-garland/')}>
+                    <div className="about-link-image">
+                        <LinkedInIcon />
                     </div>
-                    <div className="link-text">Sarah Garland</div>
+                    <div className="about-link-text">Sarah Garland</div>
                 </div>
             </div>
         </div>

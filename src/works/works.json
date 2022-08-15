@@ -1,0 +1,138 @@
+{
+    "afterlife": {
+        "projectTitle": "Afterlife",
+        "projectNumber": 1,
+        "company": "M.Arch Class Project",
+        "subject": "Academic",
+        "date": "2019-2020",
+        "awards": [
+            "Canadian Architect Student Award 1",
+            "Canadian Architect Student Award 2",
+            "Canadian Architect Student Award 3"
+        ],
+        "people": [
+            {
+                "title": "Partner",
+                "name": "Lauren"
+            }
+        ],
+        "summary": "This thesis explores the relationship between productive landscapes and the machines that shape them. Built to draw resources from gridded peripheries, machines of industry have reshaped the rural north. In tailoring the landscape to the machine, these territories have come to be misunderstood as physically and temporally disjointed sites of extraction. In reality, these places are critical future thresholds for ecosystems in flux, now more than ever in need of succession and connectivity. This project proposes an ecology of machines that celebrates complexity in the way we divide and cultivate agricultural landscapes in northern British Columbia.",
+        "images": [
+            {
+                "url": "afterlife_plans.jpeg",
+                "title": "Afterlife Plans"
+            },
+            {
+                "url": "afterlife_site_section.jpeg",
+                "title": "Afterlife Site Section"
+            },
+            {
+                "url": "afterlife_what_if_speculations.jpeg",
+                "title": "Afterlife What-If Speculations"
+            },
+            {
+                "url": "afterlife_site_plan.jpeg",
+                "title": "Afterlife Site Plan"
+            }
+        ],
+        "nextProject" : {
+            "title" : "Blossom",
+            "routeName" : "blossom"
+        },
+        "previousProject": {
+            "title" : "The Battery",
+            "routeName" : "battery"
+        }
+    },
+    "blossom": {
+        "projectTitle": "Blossom",
+        "projectNumber": 2,
+        "company": "M.Arch Class Project",
+        "subject": "Academic",
+        "date": "2019-2020",
+        "awards": [
+            "Canadian Architect Student Award 1",
+            "Canadian Architect Student Award 2",
+            "Canadian Architect Student Award 3"
+        ],
+        "people": [
+            {
+                "title": "Partner",
+                "name": "Lauren"
+            }
+        ],
+        "summary": "This thesis explores the relationship between productive landscapes and the machines that shape them. Built to draw resources from gridded peripheries, machines of industry have reshaped the rural north. In tailoring the landscape to the machine, these territories have come to be misunderstood as physically and temporally disjointed sites of extraction. In reality, these places are critical future thresholds for ecosystems in flux, now more than ever in need of succession and connectivity. This project proposes an ecology of machines that celebrates complexity in the way we divide and cultivate agricultural landscapes in northern British Columbia.",
+        "images": [
+            {
+                "url": "speculative_drawing.jpeg",
+                "title": "Blossom"
+            },
+            {
+                "url": "afterlife_site_section.jpeg",
+                "title": "Afterlife Site Section"
+            },
+            {
+                "url": "afterlife_what_if_speculations.jpeg",
+                "title": "Afterlife What-If Speculations"
+            },
+            {
+                "url": "afterlife_site_plan.jpeg",
+                "title": "Afterlife Site Plan"
+            }
+        ],
+        "nextProject" : {
+            "title" : "The Battery",
+            "routeName" : "battery"
+        },
+        "previousProject": {
+            "title" : "Afterlife",
+            "routeName" : "afterlife"
+        }
+    },
+    "battery": {
+        "projectTitle": "Battery",
+        "projectNumber": 3,
+        "company": "M.Arch Class Project",
+        "subject": "Academic",
+        "date": "2019-2020",
+        "awards": [
+            "Canadian Architect Student Award 1",
+            "Canadian Architect Student Award 2",
+            "Canadian Architect Student Award 3"
+        ],
+        "people": [
+            {
+                "title": "Partner",
+                "name": "Lauren"
+            }
+        ],
+        "summary": "This thesis explores the relationship between productive landscapes and the machines that shape them. Built to draw resources from gridded peripheries, machines of industry have reshaped the rural north. In tailoring the landscape to the machine, these territories have come to be misunderstood as physically and temporally disjointed sites of extraction. In reality, these places are critical future thresholds for ecosystems in flux, now more than ever in need of succession and connectivity. This project proposes an ecology of machines that celebrates complexity in the way we divide and cultivate agricultural landscapes in northern British Columbia.",
+        "images": [
+            {
+                "url": "battery_placeholder.jpg",
+                "title": "Blossom"
+            },
+            {
+                "url": "afterlife_site_section.jpeg",
+                "title": "Afterlife Site Section"
+            },
+            {
+                "url": "afterlife_what_if_speculations.jpeg",
+                "title": "Afterlife What-If Speculations"
+            },
+            {
+                "url": "afterlife_site_plan.jpeg",
+                "title": "Afterlife Site Plan"
+            }
+        ],
+        "nextProject" : {
+            "title" : "Afterlife",
+            "routeName" : "afterlife"
+        },
+        "previousProject": {
+            "title" : "Blossom",
+            "routeName" : "blossom"
+        }
+    }
+
+}

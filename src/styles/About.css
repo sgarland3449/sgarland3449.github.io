@@ -29,22 +29,22 @@
     margin: 2em auto 3em auto;
 }
 
-.link {
+.about-link {
     display: flex;
-    justify-content: left;
+    text-align: center;
 }
 
-.link-text {
+.about-link:hover {
+    cursor: pointer;
+}
+
+.about-link-text {
     font-size: 0.6rem;
     color: black;
     margin: auto auto auto 0.4em;
 }
 
-.link-image {
-    margin-right: 0.2em;
-}
-
-.link-image > img {
+.about-link-image > img {
     height: 0.6em;
     width: 0.8em;
 }
@@ -87,7 +87,12 @@ ul {
 
     .container-3 {
         margin: 1em auto;
-        max-width: 90vw;
+        max-width: 80vw;
         font-size: 0.8rem;
+    }
+
+    .about-link-container {
+        display: flex;
+        flex-direction: column;
     }
 }
