@@ -19,7 +19,7 @@ const Project = () => {
   return (
     <div className='project-container' ref={projectContainer}>
       <div className="header">
-        <div className="header-number">{proj.projectNumber}</div>
+        <div className="header-number"></div>
         <div className="header-company">{proj.company}</div>
         <div className="header-subject">{proj.subject}</div>
       </div>
@@ -54,7 +54,7 @@ const Project = () => {
               return (
               <li key={image.url}>
                 <div className="works-img">
-                  <img src={require(`../assets/${image.url}`)} alt={image.title} />
+                  <img src={require(`../assets/${proj.project}/${image.url}`)} alt={image.title} />
                 </div>
                 <div className="works-title">
                   {image.title}

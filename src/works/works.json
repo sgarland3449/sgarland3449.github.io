@@ -1,83 +1,300 @@
 {
     "afterlife": {
+        "project": "afterlife",
         "projectTitle": "Afterlife",
         "projectNumber": 1,
-        "company": "M.Arch Class Project",
+        "company": "M.Arch Vertical Studio Project",
         "subject": "Academic",
-        "date": "2019-2020",
-        "awards": [
-            "Canadian Architect Student Award 1",
-            "Canadian Architect Student Award 2",
-            "Canadian Architect Student Award 3"
-        ],
+        "date": "2022",
+        "abstract" : "",
+        "awards": [],
         "people": [
             {
                 "title": "Partner",
-                "name": "Lauren"
+                "name": "Lauren Johnson"
+            },
+            {
+                "title": "Instructor",
+                "name": "Thena Tak"
             }
         ],
-        "summary": "This thesis explores the relationship between productive landscapes and the machines that shape them. Built to draw resources from gridded peripheries, machines of industry have reshaped the rural north. In tailoring the landscape to the machine, these territories have come to be misunderstood as physically and temporally disjointed sites of extraction. In reality, these places are critical future thresholds for ecosystems in flux, now more than ever in need of succession and connectivity. This project proposes an ecology of machines that celebrates complexity in the way we divide and cultivate agricultural landscapes in northern British Columbia.",
+        "summary": "From forest to clear cut, the Alcazar to the York to the Raja Theatre, the corner of what is now Commercial Drive and East Georgia has lived many lives. There was a time in which the site sat vacant, and in this moment many “what if” possibilities arise. At this moment, we’re treating the building as a person that has passed on to the afterlife. The theatre sits on the site among a mature forest, where the site’s past and present exist simultaneously, with only the original proscenium arch, a screen, projector, and a single seat existing in the afterlife. \nOur afterlife takes on the idea of the imaginative and regretful question, “what if”, and gives people who come here the chance to ask a “what if” question and watch it be played out on the theatre's screen. The purpose of exploring a what if is not for indulging fantasies, but to resolve unknowns, to take lessons from this life into the next. New arrivals to the afterlife are presented with different “what if” scenarios through their own memory items which are cast in tree resin along the trunk of a tree. Objects can be a reflection of someone’s life, holding memories and reminding them of choices made and the potential “what ifs” they might have pondered before.",
         "images": [
             {
-                "url": "afterlife_plans.jpeg",
-                "title": "Afterlife Plans"
+                "url": "afterlife1.jpg",
+                "title": "Site Section Model"
             },
             {
-                "url": "afterlife_site_section.jpeg",
-                "title": "Afterlife Site Section"
+                "url": "afterlife3.jpg",
+                "title": "Site Section Model"
             },
             {
-                "url": "afterlife_what_if_speculations.jpeg",
-                "title": "Afterlife What-If Speculations"
+                "url": "afterlifePlan.jpg",
+                "title": "Plan"
             },
             {
-                "url": "afterlife_site_plan.jpeg",
-                "title": "Afterlife Site Plan"
+                "url": "afterlifeSection.jpg",
+                "title": "Site Section"
+            },
+            {
+                "url": "afterlifeSitePlan.jpg",
+                "title": "Site Plan"
+            },
+            {
+                "url": "afterlifeVignettes1.jpg",
+                "title": "New Arrival Items"
+            },
+            {
+                "url": "afterlifeVignettes2.jpg",
+                "title": "New Arrival Items"
+            },
+            {
+                "url": "afterlifeVignettes3.jpg",
+                "title": "Vignettes"
+            },
+            {
+                "url": "afterlifeWhatIf.jpg",
+                "title": "What-If Speculations"
             }
+        ],
+        "nextProject" : {
+            "title" : "Lunar Inn",
+            "routeName" : "lunar"
+        },
+        "previousProject": {
+            "title" : "The Battery",
+            "routeName" : "battery"
+        }
+    },
+    "lunar": {
+        "project": "lunar",
+        "projectTitle": "Lunar Inn",
+        "projectNumber": 2,
+        "company": "Internship",
+        "subject": "Professional",
+        "date": "2021",
+        "abstract" : "",
+        "awards": [],
+        "people": [
+            {
+                "title": "Office",
+                "name": "Woodford Architecture"
+            }
+        ],
+        "summary": "The Lunar Inn, operated by the St John’s First Light Friendship Centre, provides a place for long or short term stays for inidgenous people visiting St John’s for medical appointments. The Inn also serves as the dispatch centre for First Light’s transportation program. This project involved minor interventions to the ground floor of the building to create both a more functional inn space, and a stronger sense of home and comfort for visitors to the inn. The reception area was upgraded with a custom L-shaped desk, and custom storage cabinetry. In the living area, a coffee station and credenza were designed to create a more comfortable area for lounging. New furniture was selected for the space to make it bright and welcoming. The clients also wanted a space to exbihit art work by local indigenous artists, so spotlights were added to highlight the works. I worked closely with an Intern Architect in the office on millwork design, lighting and furniture selection,  rendering and compiling design documents for client presentation. Art displayed in the renderings is not my own but the work of the following talented indigenous artists from Newfoundland - Jordan Bennett, Nelson White, and Meagan Musseau. It was important to include the work of indigenous artists in visualisations of the room to give a areal sense of how the rooms will look once First Light can exhibit art there.",
+        "images": [
+            {
+                "url": "lunarInn04.jpg",
+                "title": "Reception Desk"
+            },
+            {
+                "url": "lunarInn05.jpg",
+                "title": "Reception Area"
+            },
+            {
+                "url": "lunarInn09.jpg",
+                "title": "Office Cabinetry"
+            },
+            {
+                "url": "lunarInn06.jpg",
+                "title": "Entry Bench"
+            },
+            {
+                "url": "lunarInn08.jpg",
+                "title": "Living Room Credenza"
+            },
+            {
+                "url": "lunarInn07.jpg",
+                "title": "Coffee Station"
+            },
+            {
+                "url": "lunarInn10.jpg",
+                "title": "Dining and Living Room"
+            }
+            
         ],
         "nextProject" : {
             "title" : "Blossom",
             "routeName" : "blossom"
         },
         "previousProject": {
-            "title" : "The Battery",
-            "routeName" : "battery"
+            "title" : "Afterlife",
+            "routeName" : "afterlife"
         }
     },
     "blossom": {
+        "project": "blossom",
         "projectTitle": "Blossom",
-        "projectNumber": 2,
-        "company": "M.Arch Class Project",
+        "projectNumber": 3,
+        "company": "M.Arch Seminar Project",
         "subject": "Academic",
-        "date": "2019-2020",
-        "awards": [
-            "Canadian Architect Student Award 1",
-            "Canadian Architect Student Award 2",
-            "Canadian Architect Student Award 3"
+        "date": "2022",
+        "abstract" : "",
+        "awards": [],
+        "people": [
+            {
+                "title": "Partners",
+                "name": "Lorena Polovina, Sarah Pitoscia"
+            },
+            {
+                "title": "Professor",
+                "name": "Annalisa Meyboom"
+            }
         ],
+        "summary": "Growing out of the ground, Blossom expresses itself as an experiential pavilion created using techniques at the intersection of parametric design and robotic fabrication. The pavilion blooms open to offer place to sit and relax. Parametric design allowed for an iterative and experimental design process that holds a direct engagement with the fabrication process. A script written in Grasshopper defined the geometry, which was fed directly to a Kuka Robot, which cut all the individual pieces for assembly. Blossom uses repetitive components set to varying degrees to form an organic arch structure. The initial design concept involved explorations into the connection between a petal and wedge. The wedge is used to prop the petal up to provide support and facilitate in generating an overall form. The result is a structure that is made up of two components, a petal and wedge, that are doweled together. Each wedge has a set of 2 teeth on either side that connect into the corresponding petal at a series of angles, made possible only by an 8-axis industrial robot. The teeth of the stacked wedges are then doweled together to maintain a rigid structure as the components blossom and fold to form an organic arch pavilion.",
+        "images": [
+            {
+                "url": "blossom1.jpg",
+                "title": "View From Main Mall"
+            },
+            {
+                "url": "blossom2.jpg",
+                "title": "Blossom Amongst Seminar Projects"
+            },
+            {
+                "url": "blossom3.jpg",
+                "title": "Down The Spine"
+            },
+            {
+                "url": "blossomDiagram.jpg",
+                "title": "Component Diagram"
+            },
+            {
+                "url": "blossomModels.jpg",
+                "title": "Early Study Models"
+            }
+        ],
+        "nextProject" : {
+            "title" : "Port Rexton House",
+            "routeName" : "rexton"
+        },
+        "previousProject": {
+            "title" : "Lunar Inn",
+            "routeName" : "lunar"
+        }
+    },
+    "rexton": {
+        "project": "rexton",
+        "projectTitle": "Port Rexton House",
+        "projectNumber": 4,
+        "company": "Internship",
+        "subject": "Professional",
+        "date": "2021",
+        "abstract" : "",
+        "awards": [],
+        "people": [
+            {
+                "title": "Office",
+                "name": "Woodford Architecture"
+            }
+        ],
+        "summary": "poopoo",
+        "images": [
+            {
+                "url": "rexton1.jpg",
+                "title": "View From the Road"
+            },
+            {
+                "url": "rexton2.jpg",
+                "title": "Back Patio"
+            },
+            {
+                "url": "rexton3.jpg",
+                "title": "Covered Path to the Coast"
+            }
+        ],
+        "nextProject" : {
+            "title" : "Wooden Textile Pavillion",
+            "routeName" : "wood"
+        },
+        "previousProject": {
+            "title" : "Blossom",
+            "routeName" : "blossom"
+        }
+    },
+    "wood": {
+        "project": "wood",
+        "projectTitle": "Wooden Textile Pavillion",
+        "projectNumber": 5,
+        "company": "Undergraduate Design Studio",
+        "subject": "Academic",
+        "date": "2019",
+        "abstract" : "",
+        "awards": [],
+        "people": [
+            {
+                "title": "Partners",
+                "name": "Sanjana Patel, Evan Guan"
+            },
+            {
+                "title": "Instructor",
+                "name": "Tom Bessai"
+            }
+        ],
+        "summary": "peepee",
+        "images": [
+            {
+                "url": "wood1.jpg",
+                "title": "Diagram"
+            },
+            {
+                "url": "wood2.jpg",
+                "title": "Material Testing"
+            },
+            {
+                "url": "wood3.jpg",
+                "title": "Material Testing"
+            },
+            {
+                "url": "wood4.jpg",
+                "title": "1:1 Scale Fragment Model"
+            },
+            {
+                "url": "wood5.jpg",
+                "title": "1:12 Pavillion Model"
+            }
+        ],
+        "nextProject" : {
+            "title" : "Material Landscapes",
+            "routeName" : "material"
+        },
+        "previousProject": {
+            "title" : "Port Rexton House",
+            "routeName" : "rexton"
+        }
+    },
+    "material": {
+        "project": "material",
+        "projectTitle": "Material Landscapes",
+        "projectNumber": 6,
+        "company": "Research Seminar Project",
+        "subject": "Academic",
+        "date": "2020",
+        "abstract" : "",
+        "awards": [],
         "people": [
             {
                 "title": "Partner",
-                "name": "Lauren"
+                "name": "Sanjana Patel"
+            },
+            {
+                "title": "Instructor",
+                "name": "Anne-Marie Armstrong"
             }
         ],
-        "summary": "This thesis explores the relationship between productive landscapes and the machines that shape them. Built to draw resources from gridded peripheries, machines of industry have reshaped the rural north. In tailoring the landscape to the machine, these territories have come to be misunderstood as physically and temporally disjointed sites of extraction. In reality, these places are critical future thresholds for ecosystems in flux, now more than ever in need of succession and connectivity. This project proposes an ecology of machines that celebrates complexity in the way we divide and cultivate agricultural landscapes in northern British Columbia.",
+        "summary": "peepee poopoo",
         "images": [
             {
-                "url": "speculative_drawing.jpeg",
-                "title": "Blossom"
+                "url": "mat3.jpg",
+                "title": "Materials Matrix"
             },
             {
-                "url": "afterlife_site_section.jpeg",
-                "title": "Afterlife Site Section"
+                "url": "mat1.jpg",
+                "title": "Site Observations"
             },
             {
-                "url": "afterlife_what_if_speculations.jpeg",
-                "title": "Afterlife What-If Speculations"
-            },
-            {
-                "url": "afterlife_site_plan.jpeg",
-                "title": "Afterlife Site Plan"
+                "url": "mat2.jpg",
+                "title": "Speculative Drawing"
             }
         ],
         "nextProject" : {
@@ -85,44 +302,30 @@
             "routeName" : "battery"
         },
         "previousProject": {
-            "title" : "Afterlife",
-            "routeName" : "afterlife"
+            "title" : "Wooden Textile Pavillion",
+            "routeName" : "wood"
         }
     },
     "battery": {
-        "projectTitle": "Battery",
-        "projectNumber": 3,
-        "company": "M.Arch Class Project",
+        "project": "battery",
+        "projectTitle": "The Battery",
+        "projectNumber": 7,
+        "company": "Research Seminar Project",
         "subject": "Academic",
-        "date": "2019-2020",
-        "awards": [
-            "Canadian Architect Student Award 1",
-            "Canadian Architect Student Award 2",
-            "Canadian Architect Student Award 3"
-        ],
+        "date": "2019",
+        "abstract" : "Primitive Rug Hooking",
+        "awards": [],
         "people": [
             {
-                "title": "Partner",
-                "name": "Lauren"
+                "title": "Professor",
+                "name": "Christy Anderson"
             }
         ],
-        "summary": "This thesis explores the relationship between productive landscapes and the machines that shape them. Built to draw resources from gridded peripheries, machines of industry have reshaped the rural north. In tailoring the landscape to the machine, these territories have come to be misunderstood as physically and temporally disjointed sites of extraction. In reality, these places are critical future thresholds for ecosystems in flux, now more than ever in need of succession and connectivity. This project proposes an ecology of machines that celebrates complexity in the way we divide and cultivate agricultural landscapes in northern British Columbia.",
+        "summary": "peepee poopoo  bum",
         "images": [
             {
-                "url": "battery_placeholder.jpg",
-                "title": "Blossom"
-            },
-            {
-                "url": "afterlife_site_section.jpeg",
-                "title": "Afterlife Site Section"
-            },
-            {
-                "url": "afterlife_what_if_speculations.jpeg",
-                "title": "Afterlife What-If Speculations"
-            },
-            {
-                "url": "afterlife_site_plan.jpeg",
-                "title": "Afterlife Site Plan"
+                "url": "battery1.jpg",
+                "title": "Primitive Rug Hooking"
             }
         ],
         "nextProject" : {
@@ -130,9 +333,11 @@
             "routeName" : "afterlife"
         },
         "previousProject": {
-            "title" : "Blossom",
-            "routeName" : "blossom"
+            "title" : "Material Landscapes",
+            "routeName" : "material"
         }
     }
+
+    
 
 }

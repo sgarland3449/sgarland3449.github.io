@@ -1,8 +1,10 @@
 import React from 'react';
 import '../styles/About.css';
-import Headshot from '../assets/nina.jpg';
+import Headshot from '../assets/sarah.jpg';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
+import { Link } from 'react-router-dom';
 
 function About() {
 
@@ -24,7 +26,7 @@ function About() {
             <hr />
             <div className="about-text">
                 <span>
-                    <strong>SARAH GARLAND</strong> is a Master's Student at the University of British Columbia
+                    <strong>SARAH GARLAND</strong><br /> is a Master of Architecture student at the University of British Columbia
                 </span>
             </div>
             <hr />
@@ -48,18 +50,30 @@ function About() {
             <div className="featured">
                 <div className="featured-title"><strong>FEATURED</strong></div>
                 <ul>
-                    <li>UBC Project 1: Afterlife lorem ipsum blablabla blablabla</li>
-                    <li>UBC Project 2: Blossom</li>
-                    <li>UBC Project 3: Battery</li>
+                    <li>
+                        <Link className='link' to={`/project/afterlife`}>
+                            <div className="featured-link"><ChevronRightOutlinedIcon />Afterlife</div>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className='link' to={`/project/lunar`}>
+                            <div className="featured-link"><ChevronRightOutlinedIcon />Lunar Inn</div>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link className='link' to={`/project/blossom`}>
+                            <div className="featured-link"><ChevronRightOutlinedIcon />Blossom</div>
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <hr />
             <div className="honours">
                 <div className="honours-title"><strong>HONOURS / AWARDS</strong></div>
                 <ul className="honours-list">
-                    <li>Bibo</li>
-                    <li>Eggy</li>
-                    <li>Schmonkey</li>
+                    <li>NSERC Undergraduate Student Research Award 2020</li>
+                    <li>NECA Green Energy Challenge Second Place (CECA UofT) 2020</li>
+                    <li>University of Toronto Dean’s List Scholar 2017/18/19/20</li>
                 </ul>
             </div>
         </div>

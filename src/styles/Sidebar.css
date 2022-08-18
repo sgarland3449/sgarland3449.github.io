@@ -19,6 +19,8 @@
 
 .name {
     font-size: 1.5rem;
+    font-weight: bold;
+    color: #254383;
 }
 
 .link-container {
@@ -35,7 +37,7 @@
 }
 
 .active {
-    color: black;
+    color: #254383;;
 }
 
 .email {
