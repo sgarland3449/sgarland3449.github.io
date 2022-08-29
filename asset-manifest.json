@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.50a53e9e.css",
-    "main.js": "/static/js/main.995953ab.js",
+    "main.css": "/static/css/main.3786d24c.css",
+    "main.js": "/static/js/main.4b598c0d.js",
     "static/js/787.78ba4ddd.chunk.js": "/static/js/787.78ba4ddd.chunk.js",
     "static/media/afterlife1.jpg": "/static/media/afterlife1.ee53c6b5f8afebf2779c.jpg",
     "static/media/afterlifeSitePlan.jpg": "/static/media/afterlifeSitePlan.ca672ae3fb370551f8fc.jpg",
@@ -53,12 +53,12 @@
     "static/media/blossomDiagram.jpg": "/static/media/blossomDiagram.c404636e758a3d75fdc4.jpg",
     "static/media/sarah.jpg": "/static/media/sarah.8f42a0f5ded62dec121c.jpg",
     "index.html": "/index.html",
-    "main.50a53e9e.css.map": "/static/css/main.50a53e9e.css.map",
-    "main.995953ab.js.map": "/static/js/main.995953ab.js.map",
+    "main.3786d24c.css.map": "/static/css/main.3786d24c.css.map",
+    "main.4b598c0d.js.map": "/static/js/main.4b598c0d.js.map",
     "787.78ba4ddd.chunk.js.map": "/static/js/787.78ba4ddd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50a53e9e.css",
-    "static/js/main.995953ab.js"
+    "static/css/main.3786d24c.css",
+    "static/js/main.4b598c0d.js"
   ]
 }
