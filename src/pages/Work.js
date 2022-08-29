@@ -115,13 +115,13 @@ function Work() {
       </div>
       <div className="grid-item project">
           <div className="project-text">
-          <Link className='link' to={`/project/woodpavillion`}>
+          <Link className='link' to={`/project/wood`}>
             <div className="project-title">Wooden Textile Pavillion</div>
           </Link>
             <div className="project-summary"></div>
           </div>
           <div className="project-image-container">
-          <Link to={`/project/woodpavillion`}>
+          <Link to={`/project/wood`}>
           <img className='project-image' 
           onMouseEnter={e => {e.currentTarget.src=Wood}}
           onMouseLeave={e => {e.currentTarget.src=WoodFiltered}}
@@ -137,13 +137,13 @@ function Work() {
       </div>
       <div className="grid-item project">
           <div className="project-text">
-          <Link className='link' to={`/project/matlandscapes`}>
+          <Link className='link' to={`/project/material`}>
             <div className="project-title">Material Landscapes</div>
           </Link>
             <div className="project-summary"></div>
           </div>
           <div className="project-image-container">
-          <Link to={`/project/matlandscapes`}>
+          <Link to={`/project/material`}>
           <img className='project-image' 
           onMouseEnter={e => {e.currentTarget.src=Material}}
           onMouseLeave={e => {e.currentTarget.src=MaterialFiltered}}

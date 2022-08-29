@@ -4,6 +4,8 @@ import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Project from './pages/Project.js';
 import Sidebar from './components/Sidebar.js';
+import Footer from './components/Footer.js';
+
 
 
 
@@ -17,6 +19,7 @@ function App() {
             <Route path='/about' element={< About />} />
             <Route path='/project/:id' element={< Project />} />
           </Routes>
+          <Footer />
       </Router>
     </div>
   );

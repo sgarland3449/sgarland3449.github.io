@@ -4,6 +4,10 @@ import '../styles/Project.css';
 import works from "../works/works.json";
 import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
 import ChevronLeftOutlinedIcon from '@mui/icons-material/ChevronLeftOutlined';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
+
 
 const Project = () => {
   let { id } = useParams();
@@ -49,19 +53,26 @@ const Project = () => {
         </div>
       </div>
       <div className="works-container">
-        <ul>
-            {proj.images.map((image) => {
-              return (
-              <li key={image.url}>
-                <div className="works-img">
-                  <img src={require(`../assets/${proj.project}/${image.url}`)} alt={image.title} />
-                </div>
-                <div className="works-title">
-                  {image.title}
-                </div>
-              </li>
-            )})}
-        </ul>
+        <Carousel
+          className="works-carousel"
+          emulateTouch={true}
+          infiniteLoop={true}
+          width={"70%"}
+          showIndicators={false}
+          showStatus={false}
+          dynamicHeight={true}
+          selectedItem={0}
+        >
+          {proj.images.map((image) => 
+              <div key={image.url}>
+                <img src={require(`../assets/${proj.project}/${image.url}`)} 
+                  alt={image.title} 
+                  className="work-img"
+                />
+              </div>
+          )}
+        </Carousel>
+        <br></br>
       </div>
       <div className="buttons-container">
         <div className="back-button">
